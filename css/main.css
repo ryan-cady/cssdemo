@@ -1,0 +1,27 @@
+/* zero out browser defaults by using the universal selector. */
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* wrapper is the container for the content of the page with in the body. this gives you more control on placement of all your content. */
+#wrapper {
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    background-color: white;
+
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 82px;
+    color: #8900e1;
+    text-align: center;
+}
